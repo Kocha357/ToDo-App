@@ -68,7 +68,7 @@ window.addEventListener("load", function(){
     }
         
          contentEl.innerHTML = ` <input type="checkbox" ${checked}  class="text"/>
-             ${item.name}`;
+            <p> ${item.name}</p>`;
 
      
             listEl.append(taskEl) 
